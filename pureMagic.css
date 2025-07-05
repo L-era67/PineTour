@@ -1,0 +1,536 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.backgroundStyle {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.page {
+  background-image: url("./image/tourPage1.png");
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 118px;
+  margin-top: 30px;
+}
+
+.page ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  padding: 0;
+}
+
+nav ul li {
+  font-size: 18px;
+  color: white;
+  width: 100px;
+  font-weight: 600;
+  font-family: "Inter";
+}
+
+.container1 {
+  /* border: 2px solid red; */
+  width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 210px;
+}
+
+.en {
+  background-color: white;
+  padding: 10px;
+  border-radius: 24px;
+}
+
+.Texts {
+  text-align: center;
+}
+
+.pure {
+  font-size: 80px;
+  height: 80px;
+  color: #e8edf2;
+  margin: 0;
+  font-family: "Bebas Neue";
+}
+
+.awaist {
+  font-size: 250px;
+  height: 250px;
+  color: #fdfdfe;
+  margin: 0;
+  font-family: "Bebas Neue";
+}
+
+.on {
+  height: 64px;
+  font-size: 64px;
+  color: #ffffff;
+  margin: 0;
+  font-family: "Hanuman";
+}
+
+.page2 {
+  background-color: #D8E4E9;
+   background-image: linear-gradient(360deg, rgba(216, 228, 233, 0) 0%, #D8E4E9 100%);
+
+  height: 512px; 
+  display: flex;
+}
+.Terkhiin-tsagaan {
+  background-image: url("./image/terkh.png");
+}
+
+.amarbaysgalant-monastery {
+  background-image: url("./image/amarbaysgalan.png");
+}
+
+.khuvsgul-lake {
+  background-image: url("./image/khuvsgul.png");
+}
+
+.horgin-togoo {
+  background-image: url("./image/khorgiinTogoo.png");
+}
+
+.destination {
+  width: 275px;
+  height: 370px;
+  border-radius: 40px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  box-shadow: 8px 8px #29728b40, -8px -8px #1f72aa75;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.destination:hover {
+  filter: brightness(0.6);
+  transition: filter 0.3s ease-in-out;
+  /* background-image: url('./image/khuvsgul.png');
+  transition: 2s;  */
+}
+.container2 {
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  display: flex;
+  width: 1440px;
+  height: 100%;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+.ug {
+  color: #fdfdfecc;
+  font-family: "Bebas Neue";
+  font-size: 37px;
+  filter: drop-shadow(0px 4px 4.9px #000000a6);
+}
+/*Page 3 ehelsen ni*/
+.page3 {
+  background-color: rgba(215, 228, 235, 255);
+  width: 100%;
+  height: 100%;
+}
+.page3 p {
+  margin: 0;
+}
+.page3 .garchig {
+  font-size: 49px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 120px;
+}
+.page3 .garchig2 {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: rgba(24, 24, 27, 0.7);
+}
+.container3 {
+  width: 1440px;
+  height: 1022px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+ background-image: url("./image/tourPage3.png"); 
+}
+
+.Sukhbaatar-Ulaanbaatar-DAY {
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  display: flex;
+  padding-inline: 30px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;  
+}
+.page3 .back1 {
+  background: #eee9d9;
+}
+.dartsag {
+  width: 14px;
+  height: 14px;
+}
+.dartsag-texts {
+  padding-top: 4px;
+  display: flex;
+}
+.Sukhbaatar {
+  font-size: 24px;
+  font-weight: 500;
+  color: #09090b;
+}
+.Ulaanbaatar {
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 12px;
+  font-family: "Montserrat";
+}
+.DAY {
+  font-size: 14px;
+  font-weight: 500;
+  background: #f7f6f3;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page3 .back2 {
+  background: #8bb8c1cc;
+}
+
+.page3 .back3 {
+  background: #aad8d7cc;
+}
+.page3 .back4 {
+  background: #8bc0bdcc;
+}
+.page3 .back5 {
+  background: #97cce0cc;
+}
+.Sukhbaatar-main {
+  width: 513px;
+  margin-left: 120px;
+  /* position: relative; */
+  margin-bottom: 118px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Sukhbaatar-Ulaanbaatar-DAY:hover {
+  border: 4px solid white;
+}
+/*Dugui zurag hover*/
+.circle-Style {
+  width: 245px;
+  height: 245px;
+  border-radius: 50%;
+  object-fit: cover;
+  filter: contrast(70%);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.16); 
+  rotate: -5deg;
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.MapPin-postion {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  z-index: 2;
+}
+.mapPin2 {
+  left: 8.3in;
+  top: -0.6in;
+}
+.Circle2 {
+  left: 7.2in;
+  top: -1.4in;
+}
+.Sukhbaatar-Ulaanbaatar-DAY:hover .Circle1 {
+  display: block;
+}
+.back2:hover .Circle2 {
+  display: block;
+}
+.back3:hover .Circle3 {
+  display: block;
+}
+.back4:hover .Circle4 {
+  display: block;
+}
+.Sukhbaatar-Ulaanbaatar-DAY:hover  .Circle5 {
+  display: block;
+}
+.mapPin1 {
+  left: 10.8in;
+  top: 2.3in;
+}
+.Circle1 {
+  left: 9.6in;
+  top: 1.2in;
+}
+.Circle3 {
+  left: 6.5in;
+  top: -1.7in;
+}
+.mapPin3 {
+  left: 7in;
+  top: -1in;
+}
+.Circle4 {
+  left: 5.6in;
+  top: -1.9in;
+}
+.mapPin4 {
+  left: 6.7in;
+  top: -1.3in;
+}
+.Circle5 {
+  left: 7in;
+  top: -5.8in;
+  filter: none;
+}
+.mapPin5 {
+  left: 2in;
+  top: 2in;
+}
+/*page 4 ehlej baina*/
+
+.container4 {
+  width: 1440px;
+  height: 916px;
+  border: 2px solid red;
+  margin: 0 auto;
+}
+
+.page4 {
+  background-color: #9fc6de;
+  height: 916px;
+  
+}
+.page4-Linear{
+  background: linear-gradient(360deg, rgba(216, 228, 233, 0) 0%, #D8E4E9 100%);
+}
+.page4 p {
+  margin: 0;
+}
+.pricing-text {
+  font-weight: 600;
+  font-size: 42px;
+  text-align: center;
+  padding-top: 40px;
+}
+.Package-text {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: #18181bb2;
+  padding-top: 10px;
+}
+
+/*cardnii heseg ehlej baina*/
+.card-1 {
+  background-color: #fafbfc;
+  width: 384px;
+  height: 527px;
+  border-radius: 40px;
+}
+.card-header {
+  padding-left: 24px;
+  padding-top: 32px;
+  padding-bottom: 24px;
+  display: flex;
+  gap: 16px;
+}
+.img {
+  width: 36px;
+  height: 36px;
+}
+.card-text-1 {
+  padding-top: 7px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.card-header-2 {
+  padding-left: 24px;
+  padding-top: 12px;
+}
+
+.card-text-2 {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Montserrat";
+}
+.card-text-3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #919191;
+  padding-top: 10px;
+  width: 235px;
+}
+
+.page4 ul {
+  font-family: "inter";
+  list-style-image: url("Vector\ \(5\).png");
+  margin-top: 0;
+  margin-left: 24px;
+  margin-bottom: 0;
+  /*background-color: rgb(206, 172, 232);*/
+  margin-right: 24px;
+  padding-left: 24px;
+}
+.list-garchig {
+  list-style: none;
+  padding-top: 32px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #121316;
+  padding-left: 70px;
+  padding-bottom: 16px;
+}
+.page4 ul li {
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 16px;
+  color: #3f4145;
+  /*background: rgb(172, 232, 222);*/
+  padding-left: 20px;
+}
+.card-footer {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "inter";
+  background: #a4d1e2;
+  width: 336px;
+  height: 48px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-button {
+  display: flex;
+
+  justify-content: center;
+  margin-top: 29px;
+}
+
+.main-card {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  height: 685px;
+  align-items: center;
+}
+
+/*card 2-iin heseg ehlej baina*/
+
+.page4 .popular {
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #6972b5;
+  width: 91px;
+  height: 27px;
+  border-radius: 30px;
+  color: #fafbfc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-popular {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-1:hover .card-footer {
+  background: #18181be5;
+  color: #fafafa;
+}
+.card-1:hover {
+  box-shadow: 8px 8px rgba(41, 114, 139, 0.25), -8px -8px rgba(46, 65, 71, 0.4);
+}
+
+.inter {
+  font-family: "Inter";
+}
+/*Footer heseg ehlej baina*/
+
+footer {
+  width: 100%;
+  height: 204px;
+  background-color: #9fc6de;
+}
+.container5 {
+  width: 1440px;
+  height: 204px;
+  border: 2px solid red;
+  margin: 0 auto;
+}
+
+.facebook-instagram {
+  display: flex;
+  color: #6972b5;
+  gap: 20px;
+  font-weight: 700;
+}
+
+.golluulah {
+  display: flex;
+  font-family: "Montserrat";
+  justify-content: center;
+  align-items: center;
+  background-color: #fafbfc;
+  border-radius: 40px;
+  height: 44px;
+}
+
+.facebook {
+  width: 167px;
+}
+.instagram {
+  width: 171px;
+}
+.fb-logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+.tour {
+  width: 101px;
+  height: 35px;
+}
+.facebook-instagram-TOUR {
+  margin-left: 120px;
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  height: 204px;
+  align-items: center;
+}
