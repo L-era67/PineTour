@@ -166,6 +166,7 @@ nav ul li {
   font-size: 20px;
   text-align: center;
   color: rgba(24, 24, 27, 0.7);
+  margin-bottom: 59px;
 }
 .container3 {
   width: 1440px;
@@ -267,10 +268,7 @@ nav ul li {
   left: 8.3in;
   top: -0.6in;
 }
-.Circle2 {
-  left: 7.2in;
-  top: -1.4in;
-}
+
 .Sukhbaatar-Ulaanbaatar-DAY:hover .Circle1 {
   display: block;
 }
@@ -293,6 +291,11 @@ nav ul li {
 .Circle1 {
   left: 9.6in;
   top: 1.2in;
+  transition: 2s;
+}
+.Circle2 {
+  left: 7.2in;
+  top: -1.4in;
 }
 .Circle3 {
   left: 6.5in;
@@ -324,7 +327,6 @@ nav ul li {
 .container4 {
   width: 1440px;
   height: 916px;
-  border: 2px solid red;
   margin: 0 auto;
 }
 
@@ -396,11 +398,10 @@ nav ul li {
 
 .page4 ul {
   font-family: "inter";
-  list-style-image: url("Vector\ \(5\).png");
+  list-style-image: url("image/check.png");
   margin-top: 0;
   margin-left: 24px;
   margin-bottom: 0;
-  /*background-color: rgb(206, 172, 232);*/
   margin-right: 24px;
   padding-left: 24px;
 }
@@ -432,6 +433,7 @@ nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .center-button {
@@ -490,7 +492,6 @@ footer {
 .container5 {
   width: 1440px;
   height: 204px;
-  border: 2px solid red;
   margin: 0 auto;
 }
 
